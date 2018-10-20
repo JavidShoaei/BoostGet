@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////
-//	Copyright (C) 2018 Javid Shoaei                  //
+//  Copyright (C) 2018 Javid Shoaei                  //
 //  Email: javidsoft@yahoo.com                       //
 //                                                   //
 // - Task.cpp                                        //
