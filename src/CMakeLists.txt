@@ -1,2 +1,3 @@
 project (BoostGet)
-add_executable (BoostGet Main.cpp)
+
+add_executable (BoostGet BoostGet_Test.cpp)
