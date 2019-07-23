@@ -23,7 +23,8 @@ namespace BG {
 			return toString(val, 10);
 		}
 
-		static BGWSTRING toHex(long val) {
+		template<class NUMBER>
+		static BGWSTRING toHex(NUMBER val) {
 			std::stringstream stream;
 			stream << std::hex << val;
 			return BG::Convert::toWideString(stream.str());

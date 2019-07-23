@@ -31,7 +31,7 @@ namespace BG {
 				BUFFER_LEN,
 				L"{%s@%s}",
 				getClassName().c_str(),
-				BG::Format::toHex((long)this).c_str()) < 1)
+				BG::Format::toHex((uint64_t)this).c_str()) < 1)
 				throw FormatException();
 			return (BGWSTRING)result;
 		}
